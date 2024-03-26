@@ -15,3 +15,11 @@ int main(){
 		i = i + 1;
 	}
 }
+
+/*
+input = 3
+output = 
+1
+22
+333
+*/

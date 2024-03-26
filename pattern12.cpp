@@ -2,29 +2,19 @@
 using namespace std;
 int main(){
 	int n;
-	cin >> n;
-	int sum = 1;
+	cin>>n;
 	int i = 1;
+	int sum = 'A';
 	
 	while(i<=n){
 		int j = 1;
-		while(j <= i){
-			cout<<sum;
+		while(i<=n){
+			char ch = sum;
+			cout << ch;
 			sum = sum + 1;
-			j = j+1;
+			j = j+ 1;
 		}
-		cout<<endl;
+		cout<< endl;
 		i = i + 1;
 	}
 }
-
-/*
-input = 4
-
-output = 
-
-1
-23
-456
-78910
-*/
