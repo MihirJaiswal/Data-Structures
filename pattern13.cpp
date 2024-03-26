@@ -6,25 +6,16 @@ int main(){
 	int i = 1;
 	char ch = 'A';
 	
-	while(i<=n){
+	while(i <= n){
 		int j = 1;
 		while(j<=n){
-			cout << ch;
-			ch = ch + 1;
-			j = j+ 1;
+			cout<<ch;
+			char ch1 = 'A' - i + 1;
+			cout<<ch1;
+			ch = ch +1;
+			j=j+1;
 		}
-		cout<< endl;
-		i = i + 1;
+		cout<<endl;
+		i=i+1;
 	}
 }
-
-/*
-input = 4
-
-output = 
-
-ABCD
-EFGH
-IJKL
-MNOP
-*/
